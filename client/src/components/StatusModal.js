@@ -190,8 +190,7 @@ const StatusModal = () => {
                     type="file"
                     name="file"
                     id="file"
-                    multiple
-                    accept="image/*,video/*"
+                    multiple accept="image/*,video/*"
                     onChange={handleChangeImages}
                   />
                 </div>
